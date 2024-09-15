@@ -7,7 +7,9 @@
     "android": "expo run:android",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "migrate": "pnpm dlx prisma migrate dev",
+    "generate": "pnpm dlx prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.19.1",
