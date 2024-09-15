@@ -9,11 +9,11 @@ const welcome = () => {
     const user = await prisma.user
       .create({
         data: {
-          email: "asda@asdasa.com",
-          name: "adasa",
-          password: "asdaasunas",
-          address: "dasaasasda",
-          phone: 43533234,
+          email: "test@test.com",
+          name: "test",
+          password: "test",
+          address: "test",
+          phone: 1234,
         },
       })
       .then(async () => {
